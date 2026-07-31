@@ -1,0 +1,5 @@
+build/*
+!build/src/
+build/src/*
+!build/src/Debug/
+!build/src/Debug/**
