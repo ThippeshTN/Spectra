@@ -1,6 +1,24 @@
-#include <iostream>
+#include "application.h"
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+application::application()
+{
+
+}
+
+application::~application()
+{
+
+}
+
+void application::init()
+{
+    // Initialize application here
+}
+
+void application::process()
+{
+}
+
+void application::cleanup()
+{
 }
